@@ -10,9 +10,6 @@ var baseUrl = 'https://swapi.co/api/'
 fetch(baseUrl + 'people/2')         // Asynchronous request
   .then(function(response) {        // Wait for response to continue
     console.log(response)
-    if (!response.ok) {
-      
-    }
     return response.json()          // Turn response into json and return it to next .then
   })      
   .then(function(data) {
