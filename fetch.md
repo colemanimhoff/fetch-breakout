@@ -8,7 +8,11 @@
 
 ## Notes
 
-
+* What is fetch?
+  - GET request
+    - Request for information from an API (server & database)
+    - Server: querying a database for information
+  - POST request
 
 
 
